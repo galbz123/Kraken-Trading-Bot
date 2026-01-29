@@ -15,7 +15,7 @@ import joblib
 import requests
 import asyncio
 import sys
-from oci_secrets import load_trading_secrets_into_env
+from oci_secret import load_trading_secrets_into_env
 
 load_trading_secrets_into_env()
 
