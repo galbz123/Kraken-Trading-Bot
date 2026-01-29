@@ -15,6 +15,9 @@ import joblib
 import requests
 import asyncio
 import sys
+from oci_secrets import load_trading_secrets_into_env
+
+load_trading_secrets_into_env()
 
 # Unbuffer output
 sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf8', buffering=1)
