@@ -1,0 +1,10 @@
+requests
+websocket-client
+ccxt
+pandas
+numpy
+python-dotenv
+python-telegram-bot
+plotly
+scikit-learn
+joblib

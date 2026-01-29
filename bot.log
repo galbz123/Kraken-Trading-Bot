@@ -1,0 +1,2842 @@
+/Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+
+=== Kraken Futures Dual-Asset Bot (BTC + ETH) ===
+Max trades total: 14
+US market filter: 14:30 UTC (16:30 Israel) ±15min
+BTC: 0.0018 @ SL 1.5%
+ETH: 0.045 @ SL 1.5%
+==================================================
+
+ML: loaded saved model for BTC ✅
+ML: loaded saved model for ETH ✅
+Recovering state from exchange...
+  Recovered BTC position: 0.0018 @ $88,018.00
+State recovered: BTC=True, ETH=False, trade_count=15
+[DAILY RESET] Counters reset for 2026-01-29 (BTC/ETH/total)
+ML: model trained on 85 samples (indicators) at 2026-01-29 12:52:21.966135 for BTC
+2026-01-29 14:52:21 [BTC] Price: 87887.00, ML: 0.414, Trades: 0/14, Status: ✗ Position Open
+ML: model trained on 135 samples (indicators) at 2026-01-29 12:52:23.151560 for ETH
+2026-01-29 14:52:23 [ETH] Price: 2929.50, ML: 0.395, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 14:52:23
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.147% (min: 0.15%) ✗
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.147% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.147% < 0.15%)
+2026-01-29 14:53:24 [BTC] Price: 87887.00, ML: 0.565, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 14:53:25 [ETH] Price: 2929.60, ML: 0.392, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 14:53:25
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.147% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.147% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.147% < 0.15%)
+2026-01-29 14:54:26 [BTC] Price: 87895.00, ML: 0.551, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 14:54:28 [ETH] Price: 2930.10, ML: 0.374, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 14:54:28
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.148% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.148% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.148% < 0.15%)
+2026-01-29 14:55:29 [BTC] Price: 87881.00, ML: 0.449, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 14:55:30 [ETH] Price: 2929.60, ML: 0.473, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 14:55:30
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.144% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.144% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.144% < 0.15%)
+2026-01-29 14:56:32 [BTC] Price: 87916.00, ML: 0.419, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 14:56:33 [ETH] Price: 2930.30, ML: 0.444, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 14:56:33
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.145% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.145% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.145% < 0.15%)
+2026-01-29 14:57:34 [BTC] Price: 87946.00, ML: 0.509, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 14:57:35 [ETH] Price: 2931.50, ML: 0.398, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 14:57:35
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.147% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.147% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.147% < 0.15%)
+2026-01-29 14:58:37 [BTC] Price: 87969.00, ML: 0.506, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 14:58:38 [ETH] Price: 2931.90, ML: 0.382, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 14:58:38
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.148% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.148% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.148% < 0.15%)
+2026-01-29 14:59:39 [BTC] Price: 87982.00, ML: 0.447, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 14:59:41 [ETH] Price: 2931.70, ML: 0.385, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 14:59:41
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.149% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.149% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.149% < 0.15%)
+2026-01-29 15:00:42 [BTC] Price: 87990.00, ML: 0.397, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:00:44 [ETH] Price: 2932.30, ML: 0.313, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:00:44
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.141% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.141% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.141% < 0.15%)
+2026-01-29 15:01:45 [BTC] Price: 87989.00, ML: 0.403, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:01:46 [ETH] Price: 2932.90, ML: 0.292, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:01:46
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.142% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.142% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.142% < 0.15%)
+2026-01-29 15:02:48 [BTC] Price: 87999.00, ML: 0.339, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:02:49 [ETH] Price: 2933.90, ML: 0.259, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:02:49
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.145% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.145% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.145% < 0.15%)
+2026-01-29 15:03:50 [BTC] Price: 88006.00, ML: 0.368, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:03:51 [ETH] Price: 2934.80, ML: 0.233, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:03:51
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.147% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.147% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.147% < 0.15%)
+2026-01-29 15:04:55 [BTC] Price: 88018.00, ML: 0.362, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:04:56 [ETH] Price: 2934.10, ML: 0.243, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:04:56
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.148% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.148% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.148% < 0.15%)
+2026-01-29 15:05:58 [BTC] Price: 88017.00, ML: 0.326, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:05:59 [ETH] Price: 2934.10, ML: 0.321, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:05:59
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.136% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.136% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.136% < 0.15%)
+2026-01-29 15:07:00 [BTC] Price: 87982.00, ML: 0.277, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:07:02 [ETH] Price: 2934.50, ML: 0.308, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:07:02
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.137% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.137% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.137% < 0.15%)
+2026-01-29 15:08:03 [BTC] Price: 87970.00, ML: 0.239, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:08:04 [ETH] Price: 2932.90, ML: 0.334, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:08:04
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.143% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.143% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.143% < 0.15%)
+2026-01-29 15:09:05 [BTC] Price: 87970.00, ML: 0.187, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:09:07 [ETH] Price: 2932.10, ML: 0.360, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:09:07
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.143% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.143% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.143% < 0.15%)
+2026-01-29 15:10:08 [BTC] Price: 87968.00, ML: 0.155, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:10:09 [ETH] Price: 2931.70, ML: 0.417, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:10:09
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.133% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.133% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.133% < 0.15%)
+2026-01-29 15:11:11 [BTC] Price: 87987.00, ML: 0.155, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:11:12 [ETH] Price: 2930.80, ML: 0.436, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:11:12
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.135% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.135% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.135% < 0.15%)
+2026-01-29 15:12:13 [BTC] Price: 87981.00, ML: 0.116, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:12:15 [ETH] Price: 2930.00, ML: 0.457, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:12:15
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.137% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.137% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.137% < 0.15%)
+2026-01-29 15:13:16 [BTC] Price: 87985.00, ML: 0.113, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:13:17 [ETH] Price: 2930.70, ML: 0.427, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:13:17
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.138% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.138% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.138% < 0.15%)
+2026-01-29 15:14:19 [BTC] Price: 87974.00, ML: 0.110, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:14:20 [ETH] Price: 2930.70, ML: 0.427, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:14:20
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.138% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.138% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.138% < 0.15%)
+2026-01-29 15:15:21 [BTC] Price: 87985.00, ML: 0.151, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:15:22 [ETH] Price: 2930.90, ML: 0.535, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:15:22
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.128% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.128% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.128% < 0.15%)
+2026-01-29 15:16:24 [BTC] Price: 87974.00, ML: 0.134, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:16:25 [ETH] Price: 2930.30, ML: 0.548, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:16:25
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.129% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.129% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.129% < 0.15%)
+2026-01-29 15:17:27 [BTC] Price: 87974.00, ML: 0.123, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:17:28 [ETH] Price: 2930.30, ML: 0.548, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:17:28
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.129% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.129% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.129% < 0.15%)
+2026-01-29 15:18:29 [BTC] Price: 87977.00, ML: 0.121, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:18:30 [ETH] Price: 2930.00, ML: 0.555, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:18:30
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.130% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.130% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.130% < 0.15%)
+2026-01-29 15:19:32 [BTC] Price: 87959.00, ML: 0.110, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:19:33 [ETH] Price: 2930.00, ML: 0.555, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:19:33
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.130% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.130% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.130% < 0.15%)
+2026-01-29 15:20:35 [BTC] Price: 87959.00, ML: 0.110, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:20:35 [ETH] Price: 2929.90, ML: 0.571, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:20:35
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.127% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.127% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.127% < 0.15%)
+2026-01-29 15:21:37 [BTC] Price: 87960.00, ML: 0.134, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:21:38 [ETH] Price: 2930.20, ML: 0.553, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:21:38
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.128% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.128% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.128% < 0.15%)
+ML: model trained on 85 samples (indicators) at 2026-01-29 13:22:39.989140 for BTC
+2026-01-29 15:22:39 [BTC] Price: 87980.00, ML: 0.224, Trades: 0/14, Status: ✗ Position Open
+ML: model trained on 135 samples (indicators) at 2026-01-29 13:22:41.247414 for ETH
+2026-01-29 15:22:41 [ETH] Price: 2930.30, ML: 0.549, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:22:41
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.128% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.128% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.128% < 0.15%)
+2026-01-29 15:23:42 [BTC] Price: 87991.00, ML: 0.297, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:23:43 [ETH] Price: 2931.40, ML: 0.499, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:23:43
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.131% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.131% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.131% < 0.15%)
+2026-01-29 15:24:45 [BTC] Price: 87990.00, ML: 0.340, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:24:46 [ETH] Price: 2930.70, ML: 0.522, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:24:46
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.131% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.131% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.131% < 0.15%)
+2026-01-29 15:25:47 [BTC] Price: 87997.00, ML: 0.369, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:25:49 [ETH] Price: 2931.30, ML: 0.493, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:25:49
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.123% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.123% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.123% < 0.15%)
+2026-01-29 15:26:50 [BTC] Price: 87984.00, ML: 0.366, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:26:51 [ETH] Price: 2932.20, ML: 0.450, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:26:51
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.126% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.126% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.126% < 0.15%)
+2026-01-29 15:27:53 [BTC] Price: 87977.00, ML: 0.356, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:27:54 [ETH] Price: 2932.40, ML: 0.441, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:27:54
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.127% (min: 0.15%) ✗
+  Spread: 0.010% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.127% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.127% < 0.15%)
+2026-01-29 15:28:55 [BTC] Price: 87994.00, ML: 0.313, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:28:56 [ETH] Price: 2933.00, ML: 0.418, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:28:56
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.128% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.128% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.128% < 0.15%)
+2026-01-29 15:29:58 [BTC] Price: 88015.00, ML: 0.433, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:29:59 [ETH] Price: 2933.70, ML: 0.378, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:29:59
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.132% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.132% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.132% < 0.15%)
+2026-01-29 15:31:00 [BTC] Price: 87948.00, ML: 0.409, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:31:01 [ETH] Price: 2932.70, ML: 0.393, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:31:01
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.133% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.133% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.133% < 0.15%)
+2026-01-29 15:32:03 [BTC] Price: 88005.00, ML: 0.252, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:32:04 [ETH] Price: 2932.90, ML: 0.387, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:32:04
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.133% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.133% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.133% < 0.15%)
+2026-01-29 15:33:05 [BTC] Price: 87994.00, ML: 0.304, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:33:06 [ETH] Price: 2933.40, ML: 0.369, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:33:06
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.133% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.133% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.133% < 0.15%)
+2026-01-29 15:34:08 [BTC] Price: 87992.00, ML: 0.314, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:34:09 [ETH] Price: 2933.50, ML: 0.366, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:34:09
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.133% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.133% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.133% < 0.15%)
+2026-01-29 15:35:10 [BTC] Price: 87985.00, ML: 0.232, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:35:12 [ETH] Price: 2933.40, ML: 0.367, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:35:12
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.129% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.129% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.129% < 0.15%)
+2026-01-29 15:36:13 [BTC] Price: 87990.00, ML: 0.275, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:36:14 [ETH] Price: 2933.40, ML: 0.363, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:36:14
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.130% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.130% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.130% < 0.15%)
+2026-01-29 15:37:15 [BTC] Price: 87968.00, ML: 0.255, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:37:17 [ETH] Price: 2933.50, ML: 0.350, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:37:17
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.132% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.132% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.132% < 0.15%)
+2026-01-29 15:38:18 [BTC] Price: 87952.00, ML: 0.198, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:38:19 [ETH] Price: 2933.10, ML: 0.364, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:38:19
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.132% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.132% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.132% < 0.15%)
+2026-01-29 15:39:20 [BTC] Price: 87939.00, ML: 0.183, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:39:22 [ETH] Price: 2932.60, ML: 0.376, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:39:22
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.133% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.133% < 0.15%)
+  SMC points: 0/6 ✗
+[ETH] Gate failed: ATR too low (0.133% < 0.15%)
+2026-01-29 15:40:23 [BTC] Price: 87956.00, ML: 0.186, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:40:24 [ETH] Price: 2932.20, ML: 0.529, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:40:24
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.122% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.122% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.122% < 0.15%)
+2026-01-29 15:41:26 [BTC] Price: 87952.00, ML: 0.209, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:41:27 [ETH] Price: 2932.50, ML: 0.514, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:41:27
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.123% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.123% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.123% < 0.15%)
+2026-01-29 15:42:28 [BTC] Price: 87963.00, ML: 0.233, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:42:29 [ETH] Price: 2932.00, ML: 0.533, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:42:29
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.123% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.123% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.123% < 0.15%)
+2026-01-29 15:43:31 [BTC] Price: 87961.00, ML: 0.239, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:43:32 [ETH] Price: 2932.40, ML: 0.518, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:43:32
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.123% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.123% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.123% < 0.15%)
+2026-01-29 15:44:33 [BTC] Price: 87960.00, ML: 0.359, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:44:35 [ETH] Price: 2932.60, ML: 0.505, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:44:35
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.124% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.124% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.124% < 0.15%)
+2026-01-29 15:45:36 [BTC] Price: 87963.00, ML: 0.311, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:45:37 [ETH] Price: 2933.20, ML: 0.244, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:45:37
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.097% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.097% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.097% < 0.15%)
+2026-01-29 15:46:38 [BTC] Price: 87964.00, ML: 0.327, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:46:40 [ETH] Price: 2933.10, ML: 0.247, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:46:40
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.097% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.097% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.097% < 0.15%)
+2026-01-29 15:47:41 [BTC] Price: 87963.00, ML: 0.368, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:47:42 [ETH] Price: 2932.60, ML: 0.258, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:47:42
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.097% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.097% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.097% < 0.15%)
+2026-01-29 15:48:44 [BTC] Price: 87954.00, ML: 0.390, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:48:45 [ETH] Price: 2931.50, ML: 0.309, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:48:45
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.098% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.098% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.098% < 0.15%)
+2026-01-29 15:49:46 [BTC] Price: 87947.00, ML: 0.308, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:49:47 [ETH] Price: 2931.50, ML: 0.309, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:49:47
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.098% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.098% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.098% < 0.15%)
+2026-01-29 15:50:49 [BTC] Price: 87948.00, ML: 0.319, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:50:50 [ETH] Price: 2931.00, ML: 0.588, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:50:50
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.085% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.085% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.085% < 0.15%)
+2026-01-29 15:51:51 [BTC] Price: 87940.00, ML: 0.355, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:51:52 [ETH] Price: 2931.00, ML: 0.588, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:51:52
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.085% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.085% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.085% < 0.15%)
+ML: model trained on 85 samples (indicators) at 2026-01-29 13:52:54.147082 for BTC
+2026-01-29 15:52:54 [BTC] Price: 87939.00, ML: 0.326, Trades: 0/14, Status: ✗ Position Open
+ML: model trained on 135 samples (indicators) at 2026-01-29 13:52:55.590606 for ETH
+2026-01-29 15:52:55 [ETH] Price: 2931.30, ML: 0.570, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:52:55
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.085% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.085% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.085% < 0.15%)
+2026-01-29 15:53:56 [BTC] Price: 87836.00, ML: 0.437, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:53:57 [ETH] Price: 2927.60, ML: 0.716, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:53:57
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.093% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.093% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.093% < 0.15%)
+2026-01-29 15:54:59 [BTC] Price: 87870.00, ML: 0.316, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:55:00 [ETH] Price: 2928.30, ML: 0.688, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:55:00
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.093% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.093% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.093% < 0.15%)
+2026-01-29 15:56:01 [BTC] Price: 87851.00, ML: 0.435, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:56:03 [ETH] Price: 2928.40, ML: 0.683, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:56:03
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.091% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.091% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.091% < 0.15%)
+2026-01-29 15:57:04 [BTC] Price: 87869.00, ML: 0.463, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:57:05 [ETH] Price: 2928.90, ML: 0.660, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:57:05
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.091% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.091% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.091% < 0.15%)
+2026-01-29 15:58:06 [BTC] Price: 87894.00, ML: 0.441, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:58:08 [ETH] Price: 2929.90, ML: 0.613, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:58:08
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.092% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.092% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.092% < 0.15%)
+2026-01-29 15:59:10 [BTC] Price: 87890.00, ML: 0.516, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 15:59:12 [ETH] Price: 2930.10, ML: 0.595, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 15:59:12
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.094% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.094% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.094% < 0.15%)
+2026-01-29 16:00:13 [BTC] Price: 87938.00, ML: 0.552, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:00:14 [ETH] Price: 2932.80, ML: 0.456, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:00:14
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.096% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.096% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.096% < 0.15%)
+2026-01-29 16:01:16 [BTC] Price: 87951.00, ML: 0.640, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:01:17 [ETH] Price: 2932.10, ML: 0.483, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:01:17
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.096% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.096% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.096% < 0.15%)
+2026-01-29 16:02:19 [BTC] Price: 87930.00, ML: 0.640, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:02:20 [ETH] Price: 2930.90, ML: 0.520, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:02:20
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.100% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.100% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.100% < 0.15%)
+2026-01-29 16:03:21 [BTC] Price: 87861.00, ML: 0.507, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:03:22 [ETH] Price: 2927.90, ML: 0.612, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:03:22
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.106% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.106% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.106% < 0.15%)
+2026-01-29 16:04:24 [BTC] Price: 87864.00, ML: 0.430, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:04:25 [ETH] Price: 2929.10, ML: 0.567, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:04:25
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.106% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.106% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.106% < 0.15%)
+2026-01-29 16:05:26 [BTC] Price: 87838.00, ML: 0.437, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:05:27 [ETH] Price: 2927.00, ML: 0.755, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:05:27
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.100% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.100% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.100% < 0.15%)
+2026-01-29 16:06:29 [BTC] Price: 87847.00, ML: 0.435, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:06:30 [ETH] Price: 2928.70, ML: 0.692, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:06:30
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.102% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.102% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.102% < 0.15%)
+2026-01-29 16:07:31 [BTC] Price: 87884.00, ML: 0.540, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:07:33 [ETH] Price: 2929.80, ML: 0.637, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:07:33
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.105% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.105% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.105% < 0.15%)
+2026-01-29 16:08:34 [BTC] Price: 87911.00, ML: 0.544, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:08:35 [ETH] Price: 2931.10, ML: 0.571, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:08:35
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.108% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.108% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.108% < 0.15%)
+2026-01-29 16:09:37 [BTC] Price: 87927.00, ML: 0.623, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:09:38 [ETH] Price: 2931.40, ML: 0.556, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:09:38
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.108% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.108% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.108% < 0.15%)
+2026-01-29 16:10:39 [BTC] Price: 87939.00, ML: 0.668, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:10:40 [ETH] Price: 2931.70, ML: 0.609, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:10:40
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.101% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.101% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.101% < 0.15%)
+2026-01-29 16:11:42 [BTC] Price: 87939.00, ML: 0.685, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:11:43 [ETH] Price: 2931.30, ML: 0.620, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:11:43
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.102% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.102% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.102% < 0.15%)
+2026-01-29 16:12:44 [BTC] Price: 87935.00, ML: 0.668, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:12:46 [ETH] Price: 2932.10, ML: 0.581, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:12:46
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.104% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.104% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.104% < 0.15%)
+2026-01-29 16:13:47 [BTC] Price: 87887.00, ML: 0.590, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:13:48 [ETH] Price: 2929.60, ML: 0.652, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:13:48
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.108% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.108% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.108% < 0.15%)
+2026-01-29 16:14:50 [BTC] Price: 87867.00, ML: 0.464, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:14:51 [ETH] Price: 2928.00, ML: 0.682, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:14:51
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.111% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.111% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.111% < 0.15%)
+2026-01-29 16:15:52 [BTC] Price: 87903.00, ML: 0.408, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:15:53 [ETH] Price: 2928.70, ML: 0.600, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:15:53
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.106% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.106% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.106% < 0.15%)
+2026-01-29 16:16:55 [BTC] Price: 87930.00, ML: 0.509, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:16:56 [ETH] Price: 2927.10, ML: 0.640, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:16:56
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.110% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.110% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.110% < 0.15%)
+2026-01-29 16:17:58 [BTC] Price: 87922.00, ML: 0.631, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:17:59 [ETH] Price: 2928.00, ML: 0.608, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:17:59
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.110% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.110% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.110% < 0.15%)
+2026-01-29 16:19:00 [BTC] Price: 87921.00, ML: 0.569, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:19:01 [ETH] Price: 2928.50, ML: 0.588, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:19:01
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.110% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.110% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.110% < 0.15%)
+2026-01-29 16:20:03 [BTC] Price: 87894.00, ML: 0.452, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:20:04 [ETH] Price: 2926.80, ML: 0.665, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:20:04
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.106% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.106% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.106% < 0.15%)
+2026-01-29 16:21:05 [BTC] Price: 87904.00, ML: 0.443, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:21:07 [ETH] Price: 2926.80, ML: 0.665, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:21:07
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.106% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.106% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.106% < 0.15%)
+2026-01-29 16:22:08 [BTC] Price: 87917.00, ML: 0.459, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:22:09 [ETH] Price: 2929.40, ML: 0.542, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:22:09
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.111% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.111% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.111% < 0.15%)
+ML: model trained on 85 samples (indicators) at 2026-01-29 14:23:11.161210 for BTC
+2026-01-29 16:23:11 [BTC] Price: 87919.00, ML: 0.469, Trades: 0/14, Status: ✗ Position Open
+ML: model trained on 135 samples (indicators) at 2026-01-29 14:23:12.674472 for ETH
+2026-01-29 16:23:12 [ETH] Price: 2930.10, ML: 0.501, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:23:12
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.114% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.114% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.114% < 0.15%)
+2026-01-29 16:24:13 [BTC] Price: 87885.00, ML: 0.410, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:24:15 [ETH] Price: 2928.40, ML: 0.567, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:24:15
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.114% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.114% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.114% < 0.15%)
+2026-01-29 16:25:16 [BTC] Price: 87871.00, ML: 0.305, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:25:17 [ETH] Price: 2928.50, ML: 0.506, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:25:17
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.112% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.112% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.112% < 0.15%)
+2026-01-29 16:26:18 [BTC] Price: 87832.00, ML: 0.268, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:26:20 [ETH] Price: 2927.30, ML: 0.536, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:26:20
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.115% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.115% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.115% < 0.15%)
+2026-01-29 16:27:21 [BTC] Price: 87789.00, ML: 0.333, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:27:22 [ETH] Price: 2924.30, ML: 0.600, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:27:22
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.123% (min: 0.15%) ✗
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.123% < 0.15%)
+  SMC points: 2/6 ✗
+[ETH] Gate failed: ATR too low (0.123% < 0.15%)
+2026-01-29 16:28:24 [BTC] Price: 87746.00, ML: 0.429, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:28:25 [ETH] Price: 2919.50, ML: 0.677, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:28:25
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.137% (min: 0.15%) ✗
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.137% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.137% < 0.15%)
+2026-01-29 16:29:26 [BTC] Price: 87722.00, ML: 0.476, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:29:27 [ETH] Price: 2917.50, ML: 0.689, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:29:28
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.146% (min: 0.15%) ✗
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✗ BLOCKED: ATR too low (0.146% < 0.15%)
+  SMC points: 1/6 ✗
+[ETH] Gate failed: ATR too low (0.146% < 0.15%)
+2026-01-29 16:30:29 [BTC] Price: 87785.00, ML: 0.369, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:30:30 [ETH] Price: 2918.50, ML: 0.651, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:30:31
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.164% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:30:31
+  Price: 2918.50
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.164% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.651
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:31:33 [BTC] Price: 87666.00, ML: 0.586, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:31:34 [ETH] Price: 2912.00, ML: 0.791, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:31:34
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.169% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:31:35
+  Price: 2912.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.169% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.791
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:32:37 [BTC] Price: 87685.00, ML: 0.558, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:32:38 [ETH] Price: 2914.70, ML: 0.748, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:32:38
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.169% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:32:39
+  Price: 2914.70
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.169% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.748
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:33:40 [BTC] Price: 87532.00, ML: 0.828, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:33:42 [ETH] Price: 2909.00, ML: 0.813, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:33:42
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.176% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:33:43
+  Price: 2909.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.176% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.813
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:34:44 [BTC] Price: 87659.00, ML: 0.533, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:34:45 [ETH] Price: 2910.20, ML: 0.790, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:34:46
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.178% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:34:47
+  Price: 2910.20
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.178% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.790
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:35:48 [BTC] Price: 87573.00, ML: 0.726, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:35:49 [ETH] Price: 2905.70, ML: 0.886, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:35:50
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.180% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:35:50
+  Price: 2905.70
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.180% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.886
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:36:52 [BTC] Price: 87498.00, ML: 0.814, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:36:53 [ETH] Price: 2903.30, ML: 0.896, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:36:54
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.184% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:36:54
+  Price: 2903.30
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.184% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.896
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:37:56 [BTC] Price: 87638.00, ML: 0.565, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:37:57 [ETH] Price: 2908.10, ML: 0.845, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:37:59
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.190% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:37:59
+  Price: 2908.10
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.190% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.845
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:39:02 [BTC] Price: 87808.00, ML: 0.664, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:39:03 [ETH] Price: 2913.40, ML: 0.683, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:39:04
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.200% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:39:04
+  Price: 2913.40
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.200% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.683
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:40:06 [BTC] Price: 87749.00, ML: 0.578, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:40:07 [ETH] Price: 2910.00, ML: 0.806, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:40:08
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.198% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:40:08
+  Price: 2910.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.198% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.806
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:41:09 [BTC] Price: 87615.00, ML: 0.646, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:41:11 [ETH] Price: 2905.20, ML: 0.852, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:41:11
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.207% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:41:12
+  Price: 2905.20
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.207% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.852
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:42:13 [BTC] Price: 87556.00, ML: 0.767, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:42:14 [ETH] Price: 2903.00, ML: 0.859, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:42:15
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.213% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:42:16
+  Price: 2903.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.213% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.859
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:43:17 [BTC] Price: 87547.00, ML: 0.741, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:43:18 [ETH] Price: 2905.80, ML: 0.829, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:43:19
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.214% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:43:20
+  Price: 2905.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.214% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.829
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:44:21 [BTC] Price: 87539.00, ML: 0.705, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:44:22 [ETH] Price: 2905.80, ML: 0.829, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:44:23
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.214% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:44:23
+  Price: 2905.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.214% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.829
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:45:25 [BTC] Price: 87493.00, ML: 0.813, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:45:26 [ETH] Price: 2902.60, ML: 0.887, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:45:26
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.214% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:45:27
+  Price: 2902.60
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.214% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.887
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:46:29 [BTC] Price: 87522.00, ML: 0.754, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:46:30 [ETH] Price: 2901.80, ML: 0.885, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:46:31
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.218% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:46:31
+  Price: 2901.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.218% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.885
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:47:33 [BTC] Price: 87500.00, ML: 0.741, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:47:34 [ETH] Price: 2897.60, ML: 0.897, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:47:34
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.227% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:47:35
+  Price: 2897.60
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.227% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.897
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:48:36 [BTC] Price: 87742.00, ML: 0.421, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:48:37 [ETH] Price: 2908.70, ML: 0.725, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:48:38
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.234% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:48:39
+  Price: 2908.70
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.234% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.725
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:49:40 [BTC] Price: 87699.00, ML: 0.572, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:49:41 [ETH] Price: 2908.00, ML: 0.740, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:49:42
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.236% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:49:44
+  Price: 2908.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.236% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.740
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:50:45 [BTC] Price: 87600.00, ML: 0.656, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:50:47 [ETH] Price: 2905.80, ML: 0.675, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:50:47
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.243% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:50:48
+  Price: 2905.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.243% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.675
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:51:49 [BTC] Price: 87481.00, ML: 0.664, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:51:50 [ETH] Price: 2900.40, ML: 0.736, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:51:51
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.249% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:51:52
+  Price: 2900.40
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.249% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.736
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:52:53 [BTC] Price: 87362.00, ML: 0.805, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:52:54 [ETH] Price: 2895.20, ML: 0.721, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:52:55
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.272% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:52:56
+  Price: 2895.20
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.272% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.721
+  Trades: 0/14, ETH: 0/7
+
+ML: model trained on 85 samples (indicators) at 2026-01-29 14:53:57.371093 for BTC
+2026-01-29 16:53:57 [BTC] Price: 87322.00, ML: 0.843, Trades: 0/14, Status: ✗ Position Open
+ML: model trained on 135 samples (indicators) at 2026-01-29 14:53:58.723601 for ETH
+2026-01-29 16:53:58 [ETH] Price: 2891.00, ML: 0.769, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:53:59
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.273% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:53:59
+  Price: 2891.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.273% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.769
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:55:01 [BTC] Price: 87347.00, ML: 0.839, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:55:02 [ETH] Price: 2891.30, ML: 0.742, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:55:02
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.282% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:55:03
+  Price: 2891.30
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.282% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.742
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:56:04 [BTC] Price: 87304.00, ML: 0.880, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:56:06 [ETH] Price: 2891.90, ML: 0.714, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:56:06
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.287% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:56:07
+  Price: 2891.90
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.287% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.714
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:57:09 [BTC] Price: 87171.00, ML: 0.934, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:57:11 [ETH] Price: 2885.90, ML: 0.719, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:57:11
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.306% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:57:14
+  Price: 2885.90
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.306% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.719
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:58:15 [BTC] Price: 86973.00, ML: 0.983, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:58:16 [ETH] Price: 2876.30, ML: 0.766, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:58:16
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.324% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:58:17
+  Price: 2876.30
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.324% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.766
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 16:59:18 [BTC] Price: 86899.00, ML: 0.992, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 16:59:20 [ETH] Price: 2873.90, ML: 0.765, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 16:59:20
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.332% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 16:59:21
+  Price: 2873.90
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.332% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.765
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:00:22 [BTC] Price: 86698.00, ML: 0.999, Trades: 0/14, Status: ✗ Position Open
+2026-01-29 17:00:23 [ETH] Price: 2863.70, ML: 0.855, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:00:24
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.353% (min: 0.15%) ✓
+  Spread: 0.017% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:00:25
+  Price: 2863.70
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.353% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.855
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:01:26 [BTC] Price: 86637.00, ML: 0.999, Trades: 0/14, Status: ✗ Position Open
+BTC position closed (CLOSED) @ 86637.00, PnL -1.57%
+2026-01-29 17:01:30 [ETH] Price: 2864.60, ML: 0.803, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:01:31
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.371% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:01:31
+  Price: 2864.60
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.371% (min: 0.15%) ✓
+  Spread: 0.003% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.803
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:02:33 [BTC] Price: 86562.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:02:34 [ETH] Price: 2856.40, ML: 0.855, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:02:35
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.376% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:02:35
+  Price: 2856.40
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.376% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.855
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:03:37 [BTC] Price: 86495.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:03:38 [ETH] Price: 2852.20, ML: 0.867, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:03:39
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.382% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:03:39
+  Price: 2852.20
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.382% (min: 0.15%) ✓
+  Spread: 0.014% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.867
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:04:40 [BTC] Price: 86393.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:04:42 [ETH] Price: 2846.30, ML: 0.815, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:04:42
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.421% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:04:43
+  Price: 2846.30
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.421% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.815
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:05:44 [BTC] Price: 86272.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:05:45 [ETH] Price: 2843.60, ML: 0.908, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:05:46
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.429% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:05:47
+  Price: 2843.60
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.429% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.908
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:06:48 [BTC] Price: 86170.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:06:49 [ETH] Price: 2836.30, ML: 0.905, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:06:50
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.451% (min: 0.15%) ✓
+  Spread: 0.018% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:06:52
+  Price: 2836.30
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.451% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.905
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:07:53 [BTC] Price: 86170.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:07:54 [ETH] Price: 2839.60, ML: 0.891, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:07:54
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.450% (min: 0.15%) ✓
+  Spread: 0.011% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:07:55
+  Price: 2839.60
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.450% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.891
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:08:56 [BTC] Price: 86230.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:08:58 [ETH] Price: 2843.20, ML: 0.873, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:08:58
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.449% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:08:59
+  Price: 2843.20
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.449% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.873
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:10:00 [BTC] Price: 85998.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:10:01 [ETH] Price: 2825.90, ML: 0.966, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:10:02
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.468% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:10:03
+  Price: 2825.90
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.468% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.966
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:11:04 [BTC] Price: 85904.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:11:05 [ETH] Price: 2830.10, ML: 0.911, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:11:06
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.501% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:11:06
+  Price: 2830.10
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.501% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.911
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:12:08 [BTC] Price: 85582.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:12:09 [ETH] Price: 2821.80, ML: 0.943, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:12:10
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.509% (min: 0.15%) ✓
+  Spread: 0.018% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:12:10
+  Price: 2821.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.509% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.943
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:13:12 [BTC] Price: 85635.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:13:13 [ETH] Price: 2824.40, ML: 0.929, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:13:13
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.515% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:13:14
+  Price: 2824.40
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.515% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.929
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:14:15 [BTC] Price: 85331.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:14:17 [ETH] Price: 2816.80, ML: 0.945, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:14:17
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.521% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:14:18
+  Price: 2816.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.521% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.945
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:15:19 [BTC] Price: 85416.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:15:20 [ETH] Price: 2816.00, ML: 0.913, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:15:21
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.553% (min: 0.15%) ✓
+  Spread: 0.021% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:15:22
+  Price: 2816.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.553% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.913
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:16:23 [BTC] Price: 85424.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:16:24 [ETH] Price: 2814.10, ML: 0.926, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:16:25
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.553% (min: 0.15%) ✓
+  Spread: 0.011% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:16:25
+  Price: 2814.10
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.553% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.926
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:17:28 [BTC] Price: 85336.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:17:29 [ETH] Price: 2810.80, ML: 0.944, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:17:30
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.554% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:17:31
+  Price: 2810.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.554% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.944
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:18:34 [BTC] Price: 85509.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:18:35 [ETH] Price: 2815.90, ML: 0.883, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:18:35
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.571% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:18:36
+  Price: 2815.90
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.571% (min: 0.15%) ✓
+  Spread: 0.014% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.883
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:19:37 [BTC] Price: 85478.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:19:39 [ETH] Price: 2819.90, ML: 0.823, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:19:39
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.577% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:19:40
+  Price: 2819.90
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.577% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.823
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:20:41 [BTC] Price: 85455.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:20:42 [ETH] Price: 2823.10, ML: 0.599, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:20:43
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.601% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:20:44
+  Price: 2823.10
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.601% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.599
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:21:45 [BTC] Price: 85531.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:21:46 [ETH] Price: 2826.80, ML: 0.383, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:21:47
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.630% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:21:47
+  Price: 2826.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.630% (min: 0.15%) ✓
+  Spread: 0.011% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.383
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:22:49 [BTC] Price: 85435.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:22:50 [ETH] Price: 2824.80, ML: 0.425, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:22:51
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.631% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:22:51
+  Price: 2824.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.631% (min: 0.15%) ✓
+  Spread: 0.011% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.425
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:23:52 [BTC] Price: 85407.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:23:54 [ETH] Price: 2825.00, ML: 0.421, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:23:54
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.631% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:23:55
+  Price: 2825.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.631% (min: 0.15%) ✓
+  Spread: 0.021% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.421
+  Trades: 0/14, ETH: 0/7
+
+ML: model trained on 85 samples (indicators) at 2026-01-29 15:24:58.516426 for BTC
+2026-01-29 17:24:58 [BTC] Price: 85427.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+ML: model trained on 135 samples (indicators) at 2026-01-29 15:24:59.726128 for ETH
+2026-01-29 17:24:59 [ETH] Price: 2830.00, ML: 0.320, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:25:00
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.630% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:25:00
+  Price: 2830.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.630% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.320
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:26:02 [BTC] Price: 85398.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:26:03 [ETH] Price: 2831.40, ML: 0.152, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:26:04
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.639% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:26:04
+  Price: 2831.40
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.639% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.152
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:27:06 [BTC] Price: 85440.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:27:07 [ETH] Price: 2833.20, ML: 0.127, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:27:09
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.641% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:27:09
+  Price: 2833.20
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.641% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.127
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:28:10 [BTC] Price: 85343.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:28:11 [ETH] Price: 2828.60, ML: 0.171, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:28:12
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.642% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:28:13
+  Price: 2828.60
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.642% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.171
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:29:16 [BTC] Price: 85347.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:29:18 [ETH] Price: 2829.00, ML: 0.155, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:29:18
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.648% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:29:19
+  Price: 2829.00
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.648% (min: 0.15%) ✓
+  Spread: 0.011% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.155
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:30:20 [BTC] Price: 85322.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:30:21 [ETH] Price: 2832.10, ML: 0.077, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:30:22
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.646% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:30:23
+  Price: 2832.10
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.646% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.077
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:31:24 [BTC] Price: 85345.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+2026-01-29 17:31:25 [ETH] Price: 2831.80, ML: 0.059, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:31:26
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 0/14 ✓
+  ATR: 0.663% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:31:27
+  Price: 2831.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.663% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.059
+  Trades: 0/14, ETH: 0/7
+
+2026-01-29 17:32:28 [BTC] Price: 85183.00, ML: 1.000, Trades: 0/14, Status: ✓ Ready
+[LIVE CHECK] ✅ No open position for BTC/USD:USD
+[BTC] BUY signal triggered: pos=None, trades=0/14
+[SL ✓] BTC/USD:USD: 0.0018 @ 83928.0 (Entry: 85205.66666666667, SL%: 1.5%) | ID: a0f40e75-d0ae-4c52-8b08-f7c4a48874b9
+TP placed for BTC/USD:USD: 0.00072 @ 85546.49
+TP placed for BTC/USD:USD: 0.00054 @ 85887.31
+TP placed for BTC/USD:USD: 0.00054 @ 86483.75
+[BTC] Position confirmed: entry=85205.66666666667, count=1
+🚀 BTC BUY: 0.0018 @ 85206, SL@83928, Trade #1/6
+Telegram send error: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+2026-01-29 17:32:33 [ETH] Price: 2825.70, ML: 0.070, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:32:34
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 1/14 ✓
+  ATR: 0.672% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:32:35
+  Price: 2825.70
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.672% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.070
+  Trades: 1/14, ETH: 0/7
+
+2026-01-29 17:33:36 [BTC] Price: 85191.00, ML: 1.000, Trades: 1/14, Status: ✗ Position Open
+2026-01-29 17:33:37 [ETH] Price: 2827.40, ML: 0.054, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:33:38
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 1/14 ✓
+  ATR: 0.682% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:33:38
+  Price: 2827.40
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.682% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.054
+  Trades: 1/14, ETH: 0/7
+
+2026-01-29 17:34:40 [BTC] Price: 85271.00, ML: 1.000, Trades: 1/14, Status: ✗ Position Open
+2026-01-29 17:34:41 [ETH] Price: 2830.80, ML: 0.046, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:34:41
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 1/14 ✓
+  ATR: 0.681% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:34:42
+  Price: 2830.80
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.681% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.046
+  Trades: 1/14, ETH: 0/7
+
+2026-01-29 17:35:43 [BTC] Price: 85252.00, ML: 1.000, Trades: 1/14, Status: ✗ Position Open
+2026-01-29 17:35:44 [ETH] Price: 2829.90, ML: 0.036, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:35:45
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 1/14 ✓
+  ATR: 0.661% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:35:46
+  Price: 2829.90
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.661% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.036
+  Trades: 1/14, ETH: 0/7
+
+2026-01-29 17:36:47 [BTC] Price: 85137.00, ML: 1.000, Trades: 1/14, Status: ✗ Position Open
+2026-01-29 17:36:48 [ETH] Price: 2822.50, ML: 0.036, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:36:49
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 1/14 ✓
+  ATR: 0.685% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:36:52
+  Price: 2822.50
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.685% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.036
+  Trades: 1/14, ETH: 0/7
+
+2026-01-29 17:37:53 [BTC] Price: 85228.00, ML: 0.999, Trades: 1/14, Status: ✗ Position Open
+2026-01-29 17:37:54 [ETH] Price: 2822.70, ML: 0.036, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:37:55
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 1/14 ✓
+  ATR: 0.685% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:37:56
+  Price: 2822.70
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.685% (min: 0.15%) ✓
+  Spread: 0.007% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.036
+  Trades: 1/14, ETH: 0/7
+
+2026-01-29 17:38:57 [BTC] Price: 85190.00, ML: 0.999, Trades: 1/14, Status: ✗ Position Open
+2026-01-29 17:38:58 [ETH] Price: 2822.50, ML: 0.030, ETH Trades: 0/7
+[ETH GATES CHECK] 2026-01-29 17:38:59
+  Position Open: ✓ NO
+  Daily Cap ETH: 0/7 ✓
+  Daily Cap Total: 1/14 ✓
+  ATR: 0.696% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  Result: ✓ PASSED
+  SMC points: 1/6 ✗
+
+[ETH ANALYSIS] 2026-01-29 17:38:59
+  Price: 2822.50
+  SMC Score: 1/6 (min required: 4) ✗
+  SMC Components Passed: 1/6
+    ├─ HTF Bias: ✗
+    ├─ BOS: ✗
+    ├─ Sweep: ✗
+    ├─ OB Proximity: ✗
+    ├─ Discount Zone: ✓
+    └─ FVG Touched: ✗
+  ATR: 0.696% (min: 0.15%) ✓
+  Spread: 0.004% (max: 0.05%) ✓
+  News Sentiment: 0 ✓
+  ML Score: 0.030
+  Trades: 1/14, ETH: 0/7
+
+[SYNC] fetch_positions error: Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+Error fetching data for BTC/USD:USD (attempt 1/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+Error fetching data for BTC/USD:USD (attempt 2/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+Error fetching data for BTC/USD:USD (attempt 3/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+2026-01-29 17:40:12 [BTC] Data fetch failed
+[CLOSE] BTC price fetch failed: Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+[TP CANCEL] BTC open order fetch failed: Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+BTC position closed (CLOSED) @ 85205.67, PnL 0.00%
+Error fetching data for ETH/USD:USD (attempt 1/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+Error fetching data for ETH/USD:USD (attempt 2/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+Error fetching data for ETH/USD:USD (attempt 3/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+Error fetching data for ETH/USD:USD (attempt 1/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+Error fetching data for ETH/USD:USD (attempt 2/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+Error fetching data for ETH/USD:USD (attempt 3/3): OSError Could not find a suitable TLS CA certificate bundle, invalid path: /Users/galben/Desktop/Gal/קריפטו/פיתוח/Dev/venv/lib/python3.9/site-packages/certifi/cacert.pem
+2026-01-29 17:40:40 [ETH] Data fetch failed (HTF or LTF)
